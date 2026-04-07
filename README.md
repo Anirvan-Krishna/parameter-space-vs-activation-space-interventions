@@ -33,3 +33,12 @@ Seven distinct model configurations were evaluated for safety, measured by an Un
 * **Utility Preservation:** Activation-space interventions demonstrated clear superiority in utility preservation. The Function Vector maintained the downstream capabilities acquired during supervised fine-tuning perfectly, yielding a BLEU score of 1.32. Conversely, the parameter-space RESTA intervention experienced catastrophic utility degradation in the target medical domain, dropping the BLEU score to 0.87.
 * **Safety Enforcement:** RESTA proved slightly more effective at strictly enforcing safety constraints, achieving an Unsafe Score of 49.82%, compared to the Function Vector variant's 50.91%.
 * **Conclusion:** Dynamic inference-time steering through Function Vectors offers a vastly superior balance compared to parameter-space arithmetic, successfully preserving task utility while delivering competitive safety alignment. Furthermore, the discrepancy in behavior when injecting vectors into DARE-processed models confirms that activation-space steering is highly sensitive to the underlying parameter distribution, requiring precise recalibration whenever base weights are altered.
+
+---
+
+## References
+1.  Qwen Team, “Qwen2.5 Technical Report,” 2024. [Online].
+2.  E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, and W. Chen, “LoRA: Low-Rank Adaptation of Large Language Models,” in *Proc. Int. Conf. Learn. Representations (ICLR)*, 2022.
+3.  G . Ilharco, M. T. Ribeiro, T. Wortsman, S. Gururangan, L. Schmidt, Y. Song, and A. Farhadi, “Editing Models with Task Arithmetic,” in *Proc. Int. Conf. Learn. Representations (ICLR)*, 2023.
+4. L. Yu, X. Yu, Y. Chen, and S. Ermon, “Language Model Merging with DARE: Drop and Rescale,” 2024.
+5. E. Todd, M. A. McGrath, S. R. Bowman, and J. D. Lewis, “Function Vectors in Large Language Models,” 2023.
