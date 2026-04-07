@@ -37,8 +37,13 @@ Seven distinct model configurations were evaluated for safety, measured by an Un
 ---
 
 ## References
-1.  Qwen Team, “Qwen2.5 Technical Report,” 2024. [Online].
-2.  E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, and W. Chen, “LoRA: Low-Rank Adaptation of Large Language Models,” in *Proc. Int. Conf. Learn. Representations (ICLR)*, 2022.
-3.  G . Ilharco, M. T. Ribeiro, T. Wortsman, S. Gururangan, L. Schmidt, Y. Song, and A. Farhadi, “Editing Models with Task Arithmetic,” in *Proc. Int. Conf. Learn. Representations (ICLR)*, 2023.
-4. L. Yu, X. Yu, Y. Chen, and S. Ermon, “Language Model Merging with DARE: Drop and Rescale,” 2024.
-5. E. Todd, M. A. McGrath, S. R. Bowman, and J. D. Lewis, “Function Vectors in Large Language Models,” 2023.
+
+[1] Qwen Team, “Qwen2.5 Technical Report,” 2024. [Online]. Available: https://arxiv.org/abs/2407.10671
+
+[2] E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, and W. Chen, “LoRA: Low-Rank Adaptation of Large Language Models,” in *Proc. Int. Conf. Learn. Representations (ICLR)*, 2022. [Online]. Available: https://arxiv.org/abs/2106.09685
+
+[3] G. Ilharco, M. T. Ribeiro, T. Wortsman, S. Gururangan, L. Schmidt, Y. Song, and A. Farhadi, “Editing Models with Task Arithmetic,” in *Proc. Int. Conf. Learn. Representations (ICLR)*, 2023. [Online]. Available: https://arxiv.org/abs/2212.04089
+
+[4] L. Yu, X. Yu, Y. Chen, and S. Ermon, “Language Model Merging with DARE: Drop and Rescale,” 2024. [Online]. Available: https://arxiv.org/abs/2311.03099
+
+[5] E. Todd, M. A. McGrath, S. R. Bowman, and J. D. Lewis, “Function Vectors in Large Language Models,” 2023. [Online]. Available: https://arxiv.org/abs/2310.15213
